@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-backstage
+  description: The place to be, for great artists
+  annotations:
+    github.com/project-slug: Global-Release-Tooling/test-backstage
+    backstage.io/techdocs-ref: https://github.com/Global-Release-Tooling/test-backstage/blob/main/mkdocs.yml
+spec:
+  type: other
+  lifecycle: unknown
+  owner: acme-corp
